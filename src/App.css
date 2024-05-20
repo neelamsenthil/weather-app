@@ -1,0 +1,129 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+*{
+  font-family: "Nova Round", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #1fa4cb;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.container{
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  width: 350px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 40px;
+
+}
+.inpit-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #1fa4cb ;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+.inpit-container input{
+  border: none;
+  flex: 1;
+  outline: none;
+  padding: 10px;
+  font-size: 1.2em;
+  background-color: aliceblue;
+
+
+}
+.search-icon{
+  padding: 10px;
+  cursor: pointer;
+
+}
+.search-icon img{
+  width: 25px;
+}
+.image{
+  padding: 20px;
+  text-align: center;
+}
+.image img{
+  width: 50%;
+}
+.temp,.location,.country{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  padding: 5px;
+}
+.temp{
+  font-weight: bold;
+  font-size: 2em;
+}
+.location{
+  color: #ffcf4a;
+  font-size: 2em;
+  font-weight: bold;
+}
+.country{
+  font-weight: bold;
+}
+.cord{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cord div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.cord span,.data div:nth-child(2){
+  font-size: 1.2em;
+  color: #a19fa1;
+}
+
+.cord span:nth-child(2),
+.data div:nth-child(1){
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 4px;
+  color: #46738f;
+}
+.data-container{
+  display:flex ;
+  justify-content: space-between;
+  align-items: center;
+}
+.elements{
+  text-align: center;
+}
+.elements img{
+  width: 40px;
+}
+
+.loading-message,
+.error-message,
+.city-not-found{
+  font-size: 1.2em;
+  color: #a19fa1;
+  text-align: center;
+  padding-top: 5px;
+
+
+}
