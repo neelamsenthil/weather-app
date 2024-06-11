@@ -66,8 +66,11 @@ const WeatherDetails = ({ icon, temp, city, country, lat, long, humidity, windsp
   )
 }
 
+
+
 function App() {
   let api_key = "e344699ddf460a146234609b0c224abc"
+
   const [text, setText] = useState("thanjavur")
   const [icon, setIcon] = useState(cloudDayIcon)
   const [temp, setTemp] = useState(0)
@@ -108,7 +111,7 @@ function App() {
     try {
       let res = await fetch(url)
       let data = await res.json()
-      // console.log(data)
+      console.log(data)
 
       if (data.cod === "404") {
         console.error("city not found")
